@@ -4,13 +4,60 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+<style>
+    .container {
+        display: flex;
+    }
+    .subscribe {
+        background-color: rgb(252, 5, 5);
+        color: white;
+        border: none;
+        height: 30px;
+        margin: 2px;
+        border-radius: 5px;
+        width: 100px;
+        cursor: pointer;
+    }
+    .subscribe:hover {
+        opacity: 0.5;
+    }
+    .subscribe:active {
+        background-color: black;
+    }
+    .join {
+        background-color: white;
+        border-style: solid;
+        color: blue;
+        height: 30px;
+        margin: 2px;
+        border-color: blue;
+        width: 60px;
+        cursor: pointer;
+        border-radius: 5px ;
+    }
+    .tweet {
+        background-color: rgb(59, 166, 228);
+        margin: 2px;
+        border: none;
+        height: 30px;
+        color: white;
+        border-radius: 30px;
+        cursor: pointer;
+    }
+</style>
 </head>
 <body>
     <div>
         <h1>pararaph</h1>
     </div>
     <div>
-        <button>hello</button>
+        <a href="https://www.youtube.com/"><button class="subscribe">SUBSCRIBE</button></a>
+    </div>
+    <div>
+        <a href=""><button class="join">JOIN</button></a>
+    </div>
+    <div>
+        <a href=""><button class="tweet">Tweet</button></a>
     </div>
 </body>
 </html>
